@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         playerView = findViewById(R.id.player_view);
         playVideoBtn = findViewById(R.id.playVideo);
         videoURL = findViewById(R.id.url);
-        videoURL.setText("udp://234.10.10.124:1234");
         playVideoBtn.setOnClickListener(v -> initPlayer(videoURL.getText().toString()));
     }
 
