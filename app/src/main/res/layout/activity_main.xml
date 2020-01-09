@@ -12,7 +12,7 @@
         android:id="@+id/heading1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ExoPlayer2 UDP Stream Demo"
+        android:text="@string/main_activity_screen_title"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,7 +23,7 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:textColor="@android:color/darker_gray"
-       android:hint="udp://234.x.x.x:xxxx"
+       android:hint="@string/url_editbox_placeholder"
        android:padding="20dp"
        app:layout_constraintTop_toBottomOf="@id/heading1"/>
 
@@ -31,7 +31,7 @@
         android:id="@+id/playVideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play"
+        android:text="@string/text_play"
         app:layout_constraintTop_toBottomOf="@id/url"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
